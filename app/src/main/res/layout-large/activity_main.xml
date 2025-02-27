@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:paddingTop="8dp"
-        android:text="Department"
+        android:text="@string/form_department"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toTopOf="@+id/department"
         app:layout_constraintStart_toStartOf="@+id/department" />
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
         android:paddingTop="8dp"
-        android:text="Extension"
+        android:text="@string/form_extension"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toTopOf="@+id/extension"
         app:layout_constraintStart_toStartOf="@+id/extension" />
@@ -89,7 +89,7 @@
         android:layout_marginStart="1dp"
         android:layout_marginBottom="4dp"
         android:paddingTop="8dp"
-        android:text="Supervisor"
+        android:text="@string/form_supervisor"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toTopOf="@+id/supervisor"
         app:layout_constraintStart_toStartOf="@+id/supervisor" />
@@ -111,7 +111,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:paddingTop="8dp"
-        android:text="Email"
+        android:text="@string/form_email"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toStartOf="@+id/supervisor"
         app:layout_constraintTop_toBottomOf="@+id/supervisor" />
@@ -123,7 +123,7 @@
         android:layout_marginStart="21dp"
         android:layout_marginTop="43dp"
         android:paddingTop="8dp"
-        android:text="Direct Reports"
+        android:text="@string/form_direct_reports"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toStartOf="@+id/directReportsRecyclerView"
         app:layout_constraintTop_toTopOf="parent" />
